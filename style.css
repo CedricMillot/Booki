@@ -1,41 +1,28 @@
-
-
-
-
 .title1{
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
     margin-bottom: 8px;
     margin: 0px;
 }
-
-
 h2{
     color: #000;
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;  
+    line-height: normal;
     margin: 0px;
-   
-
 }
-
 .title-populaire{
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
 }
-
-
-
-
 .header-mep{
     display: flex;
     padding-right: 0px;
@@ -43,23 +30,19 @@ h2{
     align-items: flex-start;
     gap: 950px;
     margin: auto ;
-    
-    
 }
-
 .activites{
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
     color: #000;
-    text-align: center; 
-     display: flex;
+    text-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-
 .hebergement{
     color: var(--blue, #0065FC);
     text-align: center;
@@ -67,85 +50,71 @@ h2{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
     border-top: #0065FC 2px solid;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-
-
-
 .logo1{
     display: flex;
     padding: 30px 30px 30px 0px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px; 
+    gap: 10px;
 }
-
 .header-nav{
     display: flex;
     padding: 0px 25px;
     flex-direction: row;
-    gap: 68px; 
+    gap: 68px;
     height: 35px;
 }
-
 body{
     display: flex;
     flex-direction: column;
     gap: 35px;
     margin-top: 0px;
 }
-
 .label{
     margin: 0px;
     padding: 0px;
 }
-
-
 .gps{
     width: 50px;
     height: 49px;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
-
 .search{
     display: flex;
     flex-direction: column;
     gap:35px;
-    
 }
-
 .filtre-title1{
     color: #000;
-    text-align: center; 
+    text-align: center;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
 }
-
 .rechercher{
     display: flex;
     padding: 15px 16px;
-    align-items: center; 
+    align-items: center;
     border-radius: 0px 15px 15px 0px;
     border: 1px solid var(--blue, #0065FC);
-    background: var(--blue, #0065FC); 
-    color: var(--white, #FFF); 
+    background: var(--blue, #0065FC);
+    color: var(--white, #FFF);
 }
-
 .recherche{
     display: flex;
     width: 377px;
     align-items: center;
     border: 1px solid var(--grey, #F2F2F2);
-    background: var(--white, #FFF); 
+    background: var(--white, #FFF);
     border-radius: 0px 0px 0px 0px;
-
 }
 .all-mep{
     display: flex;
@@ -154,53 +123,46 @@ body{
     width: 70%;
     gap: 35px;
 }
-
 .label{
     display: flex;
     flex-direction: row;
     width: 377px;
     height: 49px;
 }
-
 .favoris-button{
     border-radius: 25px;
-    border: 2px solid var(--grey-tint-2, #D9D9D9); 
+    border: 2px solid var(--grey-tint-2, #D9D9D9);
     text-decoration: none;
     color:black;
     padding: 4px 19px 4px 19px;
     display: flex;
     justify-content: row;
-    align-items: center; 
-    height: 40px; 
+    align-items: center;
+    height: 40px;
     color: var(--black, #000);
     font-family: Raleway;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
     gap: 10px;
-    
-   
 }
-
 .filtre-title{
     color: #000;
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;  
+    line-height: normal;
 }
-
 .filtre{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 15px; 
+    gap: 15px;
     height: 50px;
     width: 58%;
 }
-
 .filtre2{
     display: flex;
     flex-direction: row;
@@ -210,12 +172,10 @@ body{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
     gap:10px;
     margin: 0px;
 }
-
-
 p{
     margin: 0px;
     color: #000;
@@ -223,30 +183,22 @@ p{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
 }
-
 .all-hebergement{
-    background: var(--grey, #F2F2F2); 
-    border-radius: 20px; 
+    background: var(--grey, #F2F2F2);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 65%;
     height: 611.5px;
     gap: 30px;
-
 }
-
-
 .allignement-titre{
     display: flex;
     flex-direction: column;
-
 }
-
-
-
 .image{
     display: flex;
     flex-direction: row;
@@ -254,34 +206,28 @@ p{
     justify-content: center;
     gap:30px;
 }
-
 .image0{
     display: flex;
     flex-direction: column;
-    gap: 8px; 
-    padding-bottom: 0px; 
-    gap: 4px; 
+    gap: 8px;
+    padding-bottom: 0px;
+    gap: 4px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-    align-self: stretch;  
+    align-self: stretch;
     height:207.25px ;
     width: 250.33px;
-    
-   
 }
-
-
 .image1{
     display: flex;
     flex-direction: column;
-
 }
 .image2{
     display: flex;
     flex-direction: column;
-    gap: 8px; 
-    padding: 0px 15px; 
+    gap: 8px;
+    padding: 0px 15px;
 }
 .letter{
     color: #000;
@@ -289,64 +235,52 @@ p{
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
     height: 21px;
     margin: 0% 0% 0% 30px;
-   
 }
-
 .title-hebergement{
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
     padding:0%;
     margin: 0% 0% 0% 30px;
 }
-
-
 .prix-hebergement{
     color: #000;
     font-family: Raleway;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
-
+    line-height: normal;
 }
-
 .titre-hebergement{
     color: #000;
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
 }
-
 .titre-hebergement1{
     color: #000;
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
-  margin-left: 19px;
-
+    line-height: normal;
+    margin-left: 19px;
 }
-
 span{
     color: #000;
     font-family: Raleway;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal; 
-
+    line-height: normal;
 }
-
-
 .flex-hebergement{
     display: flex;
     flex-direction: row;
@@ -356,57 +290,45 @@ span{
     align-items: center;
     gap: 35px;
     margin-bottom: 75px;
-    
-    
-    
 }
-
 .all-populaire{
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    background: var(--grey, #F2F2F2); 
+    background: var(--grey, #F2F2F2);
     height: 611.5px;
     width: 32%;
     gap:30px;
     align-items: center;
     justify-content: center;
-   margin: auto;
+    margin: auto;
 }
-
-
 .case-populaire{
     display: flex;
-flex-direction: column;
-gap:30px;
-
+    flex-direction: column;
+    gap:30px;
 }
-
-
 .title-populaire{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   padding: 0%;
-   margin: 0%;
+    padding: 0%;
+    margin: 0%;
 }
-
 .picture{
     display: flex;
     flex-direction: row;
     border-radius: 20px;
-    background: #FFF; 
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10); 
+    background: #FFF;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     width: 369px;
-    height: 144px; 
-  
+    height: 144px;
 }
 .picture1{
     display: flex;
     flex-direction: row;
 }
-
 .picture2{
     display: flex;
     flex-direction: column;
@@ -416,71 +338,54 @@ gap:30px;
     margin-bottom: 24px;
     width: 226px;
     height: 83px;
-   
-
 }
-
 .star1{
     padding-left: 15px;
 }
-
 .star-cost{
     display: flex;
     flex-direction: column;
 }
-
 .activite-case{
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   border-radius: 20px;
-   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10); 
-   height: 439px; 
-   
-  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    height: 439px;
 }
-
 .all-activite-case{
     display: flex;
     flex-direction: row;
     gap: 30px;
     margin: auto;
 }
-
-
 .all-activite{
     display: flex;
     flex-direction: column;
     margin: auto;
     gap: 30px;
-  
 }
-
 .marseille-activite{
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
     margin:auto;
     display: flex;
     flex-direction: column;
     width: 68%;
-    
 }
-
-
 .footer-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: var(--grey, #F2F2F2); 
+    background: var(--grey, #F2F2F2);
     width:70% ;
     justify-content: center;
     margin: auto;
-
 }
-
 .footer-lane{
     display: flex;
     flex-direction: column;
@@ -488,93 +393,70 @@ gap:30px;
     width: 446px;
     padding: 20px;
 }
-
 main{
     margin: auto;
 }
-
 footer{
     margin-top: 35px;
 }
-
-
 @media screen and (max-width: 390px) {
     .header-mep{
         display: flex;
         flex-direction: column;
         gap: 10px;
-       }
-
-       .logo1{
+   }
+    .logo1{
         display: flex;
         justify-content: center;
         margin: auto;
-       }
-
-       .header-nav{
+   }
+    .header-nav{
         display: flex;
         margin: 0;
-       }
-
-        .all-mep{
-            margin: auto;
-            width: 390px;
-            gap: 10px;
-            
-
-        }
-
-
-       .filtre{
+   }
+    .all-mep{
+        margin: auto;
+        width: 390px;
+        gap: 10px;
+   }
+    .filtre{
         width: 390px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-       }
-
-       .favoris-button{
+   }
+    .favoris-button{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
-
-       }
-
-        body{
-            display: flex;
-            flex-direction: column;
-            gap:500px;
-        }
-
-        nav{
-            display: flex;
-            flex-direction: column;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .flex-hebergement{
-            display: flex;
-            flex-direction: column;
-        }
-
-        .all-activite{
-            display: flex;
-            flex-direction: column;
-        }
-
-        .all-activite-case{
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .footer-box{
-            display: flex;
-            flex-direction: column;
-        }
-
-    }
+   }
+    body{
+        display: flex;
+        flex-direction: column;
+        gap:500px;
+   }
+    nav{
+        display: flex;
+        flex-direction: column;
+   }
+    main {
+        display: flex;
+        flex-direction: column;
+   }
+    .flex-hebergement{
+        display: flex;
+        flex-direction: column;
+   }
+    .all-activite{
+        display: flex;
+        flex-direction: column;
+   }
+    .all-activite-case{
+        display: flex;
+        flex-direction: column;
+   }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+   }
+}
