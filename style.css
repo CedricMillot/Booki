@@ -1,3 +1,7 @@
+
+
+
+
 .title1{
     font-family: Raleway;
     font-size: 22px;
@@ -492,3 +496,85 @@ main{
 footer{
     margin-top: 35px;
 }
+
+
+@media screen and (max-width: 390px) {
+    .header-mep{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       }
+
+       .logo1{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+       }
+
+       .header-nav{
+        display: flex;
+        margin: 0;
+       }
+
+        .all-mep{
+            margin: auto;
+            width: 390px;
+            gap: 10px;
+            
+
+        }
+
+
+       .filtre{
+        width: 390px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       }
+
+       .favoris-button{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+       }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            gap:500px;
+        }
+
+        nav{
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-hebergement{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .all-activite{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .all-activite-case{
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .footer-box{
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
