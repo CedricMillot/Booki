@@ -115,6 +115,7 @@ h2 {
   flex-direction: row;
   width: 100%;
 }
+
 .color-filtre {
   padding: 0px;
   margin: 0px;
@@ -134,7 +135,7 @@ h2 {
 .flex-filter {
   display: flex;
   flex-direction: row;
-  gap: 35px;
+  gap: 15px;
   align-items: center;
 }
 .flex-favoris-button {
@@ -261,12 +262,13 @@ p {
 .figure-image0 {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
   padding-bottom: 0px;
   border-radius: 20px;
   background: #fff;
   object-fit: cover;
   margin: 0;
+  height: 207.25px;
 }
 .image1 {
   display: flex;
@@ -379,6 +381,7 @@ span {
   background: #fff;
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
+  height: 144px;
 }
 .picture1 {
   display: flex;
@@ -388,22 +391,28 @@ span {
 .picture2 {
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
-  margin-top: 10px;
-  margin-left: 5px;
   gap: 5px;
 }
 .activite-title {
   padding: 20px 19px 20px 19px;
 }
+.star {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
 .star1 {
-  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
 }
 .star-cost {
   display: flex;
   flex-direction: column;
   width: 70%;
   justify-content: space-between;
+  padding: 10px 5px 5px 15px;
+  gap: 24px;
 }
 .activite-case {
   display: flex;
@@ -416,6 +425,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 30px;
 }
 .all-activite {
   display: flex;
@@ -446,9 +456,6 @@ span {
   padding: 20px;
 }
 
-footer {
-  margin-top: 35px;
-}
 .image-large {
   display: block;
   max-width: 100%;
@@ -467,48 +474,75 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .header-nav {
+    padding: 0px;
   }
   .flex-hebergement {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin: 0;
   }
   .flex-filter {
     display: flex;
     flex-direction: column;
     align-items: unset;
+    gap: 20px;
   }
   .color-filtre {
     display: flex;
+  }
+  .favoris-button {
+    color: var(--black, #000);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 35px;
   }
   .all-hebergement {
-    width: 93%;
+    width: auto;
   }
   .all-populaire {
-    width: 93%;
+    width: auto;
+    gap: 20px;
   }
   .all-popular-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    gap: 20px;
   }
-  .image-large {
-    display: none;
+  .activite-case {
+    width: 25%;
   }
-  .image-medium {
-    display: none;
+  .image0 {
+    width: 29%;
+  }
+  .picture {
+    width: 33%;
+  }
+  .label {
+    width: 35%;
+  }
+  .star-cost {
+    gap: inherit;
+  }
+  .footer-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
   }
 
-  .image-small {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
   .image-large {
     display: none;
   }
@@ -523,10 +557,16 @@ footer {
   }
 }
 @media screen and (max-width: 768px) {
+  html {
+    display: flex;
+    flex-direction: column;
+  }
   body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
   }
 
   .header-mep {
@@ -535,9 +575,6 @@ footer {
     align-items: center;
   }
   .logo1 {
-    display: flex;
-    width: 61px;
-    height: 19px;
     padding: 30px;
   }
   .header-nav {
@@ -630,6 +667,7 @@ footer {
     width: 100%;
     gap: 15px;
   }
+
   .all-hebergement {
     display: flex;
     flex-direction: column;
@@ -645,6 +683,9 @@ footer {
   .image0 {
     width: 100%;
   }
+  .figure-image0 {
+    height: auto;
+  }
   .all-activite {
     display: flex;
     flex-direction: column;
@@ -659,6 +700,13 @@ footer {
   }
   .activite-case {
     width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .footer-lane {
+    padding: 0px;
   }
   .footer-box {
     display: flex;
@@ -666,6 +714,7 @@ footer {
     padding: 30px;
     gap: 50px;
     width: 100%;
+    padding: 30px 20px 30px 30px;
   }
   .image-large {
     display: none;
