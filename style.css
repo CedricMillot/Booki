@@ -214,7 +214,6 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  gap: 10px;
   margin: 0px;
 }
 p {
@@ -225,6 +224,9 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.text-logement {
+  margin-left: 10px;
 }
 .all-hebergement {
   background: var(--grey, #f2f2f2);
@@ -585,7 +587,7 @@ span {
     width: 100%;
   }
   .hebergement {
-    width: 100%;
+    width: 50%;
     color: var(--blue, #0065fc);
     text-align: center;
     font-family: Raleway;
@@ -600,20 +602,21 @@ span {
     justify-content: flex-start;
   }
   .activites {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    border-bottom: #f2f2f2 2px solid;
   }
   .all-mep {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .recherche {
-    width: 100%;
+    width: 90%;
   }
   .filtre {
     display: flex;
@@ -637,10 +640,11 @@ span {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
+    grid-gap: 20px 10px;
   }
   .favoris-button {
-    width: 33%;
+    width: 35%;
     color: var(--black, #000);
     font-family: Raleway;
     font-size: 14px;
@@ -648,6 +652,7 @@ span {
     font-weight: 700;
     line-height: normal;
   }
+
   .flex-hebergement {
     display: flex;
     flex-direction: column-reverse;
@@ -656,7 +661,7 @@ span {
     display: flex;
     flex-direction: column;
     padding: 0;
-    width: 100%;
+    width: auto;
     border-radius: 0%;
     gap: 15px;
     padding: 30px 20px 30px 20px;
@@ -672,7 +677,7 @@ span {
     display: flex;
     flex-direction: column;
     background: white;
-    width: 100%;
+    width: auto;
     padding: 20px;
   }
   .image {
@@ -690,18 +695,18 @@ span {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    width: 95%;
+    width: auto;
   }
   .all-activite-case {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     gap: 15px;
   }
   .activite-case {
-    width: 100%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    width: auto;
+    border-top-left-radius: 37px;
+    border-top-right-radius: 37px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
@@ -713,8 +718,8 @@ span {
     flex-direction: column;
     padding: 30px;
     gap: 50px;
-    width: 100%;
-    padding: 30px 20px 30px 30px;
+    width: auto;
+    padding: 30px 30px 30px 30px;
   }
   .image-large {
     display: none;
