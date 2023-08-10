@@ -35,16 +35,20 @@
     <nav>
       <div class="all-mep">
         <div class="titre-mep">
-          <h1 class="title1">
-            Trouvez votre hébergement pour des vacances de rêve
-          </h1>
-          <h2>En plein centre-ville ou en pleine nature</h2>
+          <section>
+            <h1 class="title1">
+              Trouvez votre hébergement pour des vacances de rêve
+            </h1>
+            <h2>En plein centre-ville ou en pleine nature</h2>
+          </section>
         </div>
         <div class="search">
           <form class="nomargin" method="get" action="">
             <div class="label">
               <label for="ville"></label>
-              <img src="images/Icone/GPS.jpg" alt="GPS" />
+              <div class="button-gps">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
               <div class="mobil-search-button">
                 <input
                   class="recherche"
@@ -53,10 +57,7 @@
                   id="ville"
                 /><button class="rechercher">Rechercher</button>
                 <button class="rechercher2">
-                  <i
-                    class="fa-solid fa-magnifying-glass"
-                    style="color: #ffffff"
-                  ></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </div>
             </div>
@@ -86,8 +87,9 @@
                 </div>
               </div>
               <div class="filtre2">
-                <br />
-                <img class="image-icon" src="images/Icone/I.jpg" alt="I" />
+                <a href="#" div class="Info-button">
+                  <i class="fa-solid fa-info"></i>
+                </a>
                 <p class="text-logement">
                   Plus de 500 logements sont disponibles dans cette ville
                 </p>
@@ -136,7 +138,7 @@
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
                   </div>
                 </div>
               </figure>
@@ -173,7 +175,7 @@
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
                   </div>
                 </div>
               </figure>
@@ -209,7 +211,7 @@
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
                   </div>
                 </div>
               </figure>
@@ -245,7 +247,7 @@
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
                   </div>
                 </div>
               </figure>
@@ -281,7 +283,7 @@
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
                   </div>
                 </div>
               </figure>
@@ -317,7 +319,7 @@
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i
                     ><i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
                   </div>
                 </div>
               </figure>
@@ -363,7 +365,7 @@
                   ><i class="fa-solid fa-star"></i
                   ><i class="fa-solid fa-star"></i
                   ><i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                  <i class="fa-solid fa-star grey-star"></i>
                 </div>
               </div>
             </a>
@@ -400,7 +402,7 @@
                   ><i class="fa-solid fa-star"></i
                   ><i class="fa-solid fa-star"></i
                   ><i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                  <i class="fa-solid fa-star grey-star"></i>
                 </div>
               </div>
             </a>
@@ -436,7 +438,7 @@
                   ><i class="fa-solid fa-star"></i
                   ><i class="fa-solid fa-star"></i
                   ><i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star" style="color: #f2f2f2"></i>
+                  <i class="fa-solid fa-star grey-star"></i>
                 </div>
               </div>
             </a>
@@ -535,21 +537,21 @@
     <footer>
       <div class="footer-box">
         <div class="footer-lane">
-          <span class="titre-hebergement">À propos</span>
+          <h3 class="titre-hebergement">À propos</h3>
           <a href="#" class="prix-hebergement">Fonctionnement du site</a>
           <a href="#" class="prix-hebergement">Conditions générales </a>
           <a href="#" class="prix-hebergement">Données et confidentialité</a>
         </div>
-        <div class="footer-lane">
+        <h3 class="footer-lane">
           <span class="titre-hebergement">Nos hébergements</span>
           <a href="#" class="prix-hebergement">Charte qualité</a>
           <a href="#" class="prix-hebergement">Proposer votre hôtel</a>
-        </div>
-        <div class="footer-lane">
+        </h3>
+        <h3 class="footer-lane">
           <span class="titre-hebergement">Assistance</span>
           <a href="#" class="prix-hebergement">Centre d’aide</a>
           <a href="#" class="prix-hebergement">Nous contacter</a>
-        </div>
+        </h3>
       </div>
     </footer>
   </body>
