@@ -18,9 +18,7 @@ a {
   text-decoration: none;
   display: inline-block;
 }
-a:hover {
-  background: var(--blue-light, #deebff);
-}
+
 .title1 {
   font-family: Raleway;
   font-size: 22px;
@@ -62,19 +60,29 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-top: 2px solid transparent;
+}
+.activites:hover {
+  border-top-color: blue;
+  background: white;
+  color: #0065fc;
 }
 .hebergement {
-  color: var(--blue, #0065fc);
   text-align: center;
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border-top: #0065fc 2px solid;
+  border-top: 2px solid transparent;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+.hebergement:hover {
+  border-top-color: blue;
+  background: white;
+  color: #0065fc;
 }
 .logo1 {
   display: flex;
@@ -152,6 +160,10 @@ h2 {
   flex-direction: row;
   gap: 15px;
 }
+.flex-favoris-button :hover {
+  background: var(--blue-light, #deebff);
+}
+
 .rechercher {
   display: flex;
   padding: 15px 16px;
@@ -633,25 +645,31 @@ main {
   }
   .hebergement {
     width: 50%;
-    color: var(--blue, #0065fc);
-    text-align: center;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-top: none;
-    border-bottom: #0065fc 2px solid;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    border-top: 2px solid transparent;
+    border-bottom: transparent;
+  }
+  .hebergement:hover {
+    border-top-color: transparent;
+    border-bottom: blue 2px solid;
+    background: white;
+    color: #0065fc;
   }
   .activites {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border-bottom: #f2f2f2 2px solid;
+    border-top: 2px solid transparent;
+    border-bottom: transparent;
+  }
+  .activites:hover {
+    border-top-color: transparent;
+    border-bottom: blue 2px solid;
+    background: white;
+    color: #0065fc;
   }
   .all-mep {
     display: flex;
